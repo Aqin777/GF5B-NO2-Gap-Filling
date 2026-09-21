@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+  <title id="title">Early unweighted baseline R-squared comparison</title>
+  <desc id="desc">Horizontal bar chart comparing LightGBM, ExtraTrees, and HistGradientBoosting under random and station-grouped cross-validation.</desc>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="55" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">Early unweighted baseline comparison</text>
+  <text x="55" y="86" font-family="Arial, sans-serif" font-size="16" fill="#556070">R²; higher is better. These are not spatially weighted results.</text>
+
+  <text x="55" y="137" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">Random cross-validation</text>
+  <line x1="220" y1="165" x2="820" y2="165" stroke="#d7dde7"/>
+  <line x1="220" y1="275" x2="820" y2="275" stroke="#d7dde7"/>
+  <text x="55" y="193" font-family="Arial, sans-serif" font-size="16" fill="#273246">LightGBM</text>
+  <rect x="220" y="173" width="582.4" height="27" rx="4" fill="#176b87"/>
+  <text x="814" y="193" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.7765</text>
+  <text x="55" y="233" font-family="Arial, sans-serif" font-size="16" fill="#273246">ExtraTrees</text>
+  <rect x="220" y="213" width="576.5" height="27" rx="4" fill="#4a8fa6"/>
+  <text x="808" y="233" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.7686</text>
+  <text x="55" y="273" font-family="Arial, sans-serif" font-size="16" fill="#273246">HistGradientBoosting</text>
+  <rect x="220" y="253" width="538.6" height="27" rx="4" fill="#8bb8c6"/>
+  <text x="770" y="273" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.7181</text>
+
+  <text x="55" y="337" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">Station-grouped cross-validation</text>
+  <line x1="220" y1="365" x2="820" y2="365" stroke="#d7dde7"/>
+  <line x1="220" y1="475" x2="820" y2="475" stroke="#d7dde7"/>
+  <text x="55" y="393" font-family="Arial, sans-serif" font-size="16" fill="#273246">LightGBM</text>
+  <rect x="220" y="373" width="521.3" height="27" rx="4" fill="#176b87"/>
+  <text x="753" y="393" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.6951</text>
+  <text x="55" y="433" font-family="Arial, sans-serif" font-size="16" fill="#273246">ExtraTrees</text>
+  <rect x="220" y="413" width="556.1" height="27" rx="4" fill="#4a8fa6"/>
+  <text x="788" y="433" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.7415</text>
+  <text x="55" y="473" font-family="Arial, sans-serif" font-size="16" fill="#273246">HistGradientBoosting</text>
+  <rect x="220" y="453" width="490.2" height="27" rx="4" fill="#8bb8c6"/>
+  <text x="722" y="473" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">0.6536</text>
+
+  <line x1="220" y1="512" x2="820" y2="512" stroke="#8d98a8"/>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#667284" text-anchor="middle">
+    <text x="220" y="537">0.0</text><text x="370" y="537">0.2</text><text x="520" y="537">0.4</text><text x="670" y="537">0.6</text><text x="820" y="537">0.8</text>
+  </g>
+  <text x="520" y="575" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#667284">Source: archived project report; early unweighted benchmark</text>
+</svg>

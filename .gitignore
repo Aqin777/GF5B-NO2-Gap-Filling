@@ -1,0 +1,10 @@
+# Public showcase allowlist: ignore everything unless explicitly approved below.
+*
+
+!.gitignore
+!README.md
+!METHODS.md
+!assets/
+!assets/*.svg
+!docs/
+!docs/PUBLIC_RELEASE_NOTES.md
